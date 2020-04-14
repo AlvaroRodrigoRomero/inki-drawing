@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Inki Drawing</title>
+    <link rel="stylesheet" href="./css/site.css" />
+</head>
+
+<body onload="initCanvas()">
+    <canvas id="main_canvas" width="600" height="600" class="canvas"></canvas>
+
+    <input type="button" value="Ereaser" onclick="setEreaser()" />
+    <input type="button" value="Pencil" onclick="setPencil()" />
+    <input type="button" value="Reset" onclick="resetCanvas()" />
+
+
+    <!-- 
+    <script src="/__/firebase/7.14.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.14.0/firebase-database.js"></script>
+    <script src="/__/firebase/7.14.0/firebase-analytics.js"></script>
+    <script src="/__/firebase/init.js"></script> 
+    -->
+
+    <script src="./js/drawing.js"></script>
+</body>
+
+</html>
